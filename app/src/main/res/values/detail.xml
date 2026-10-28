@@ -1,0 +1,27 @@
+<resources>
+    <string name="detail_map_loading">Cargando mapa…</string>
+    <string name="detail_map_unavailable">No pudimos cargar el mapa. Puedes consultar la ubicación en Maps.</string>
+    <string name="detail_buy_total">Comprar boletos\nLps. %1$s</string>
+    <style name="Widget.TicketHN.DetailIcon" parent="">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item><item name="android:padding">12dp</item><item name="android:tint">@color/home_secondary</item>
+    </style>
+    <string name="detail_title">Detalle de evento</string>
+    <string name="detail_share">Compartir evento</string>
+    <string name="detail_share_text">%1$s\n%2$s\n%3$s, %4$s\nDesde Lps. %5$s\nEvento de demostración en TicketHN</string>
+    <string name="detail_map_placeholder">Ubicación del evento</string>
+    <string name="detail_location_demo">Ubicación de referencia · Datos de demostración</string>
+    <string name="detail_open_maps">Ver en Maps</string>
+    <string name="detail_tiers">Localidades disponibles</string>
+    <string name="detail_mock_notice">Precios y disponibilidad de ejemplo. Máximo 10 unidades por selección.</string>
+    <string name="detail_buy">Comprar boletos</string>
+    <string name="detail_decrease">Disminuir cantidad</string>
+    <string name="detail_increase">Aumentar cantidad</string>
+    <string name="detail_quantity">Cantidad: %1$d</string>
+    <string name="detail_tier">%1$s · Lps. %2$s\nQuedan %3$d %4$s</string>
+    <string name="detail_tickets_unit">boletos</string>
+    <string name="detail_packages_unit">paquetes</string>
+    <string name="detail_general">General</string><string name="detail_vip">VIP</string><string name="detail_box">Palco (4 personas)</string>
+    <string name="detail_preview_title">Resumen de selección</string>
+    <string name="detail_preview">%1$s\n%2$s\nCantidad: %3$d\nTotal: Lps. %4$s\n\nCompra simulada: no se realizará ningún cobro ni se emitirán boletos.</string>
+    <string name="detail_total">Total: Lps. %1$s</string>
+</resources>

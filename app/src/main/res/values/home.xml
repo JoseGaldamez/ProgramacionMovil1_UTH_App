@@ -1,0 +1,41 @@
+<resources>
+    <string name="featured_position">Evento destacado %1$d de %2$d</string>
+    <string name="uth_description">Universidad Tecnológica de Honduras</string>
+    <string-array name="home_categories"><item>Todo</item><item>Conciertos</item><item>Teatro</item><item>Deportes</item><item>Culturales</item></string-array>
+    <string-array name="home_cities"><item>Todas las ciudades</item><item>Tegucigalpa</item><item>San Pedro Sula</item></string-array>
+    <color name="home_background">#061327</color>
+    <color name="home_surface">#092B3B</color>
+    <color name="home_border">#245064</color>
+    <color name="home_text">#F6F8FC</color>
+    <color name="home_muted">#A6BDCA</color>
+    <color name="home_secondary">#80D2DB</color>
+    <style name="TextAppearance.TicketHN.Body" parent="">
+        <item name="android:textColor">@color/home_text</item><item name="android:textSize">13sp</item>
+    </style>
+    <style name="TextAppearance.TicketHN.Label" parent="">
+        <item name="android:textColor">@color/home_secondary</item><item name="android:textSize">13sp</item><item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.TicketHN.Price" parent="">
+        <item name="android:background">@drawable/bg_price</item><item name="android:textColor">@color/home_background</item><item name="android:textSize">13sp</item><item name="android:paddingHorizontal">8dp</item><item name="android:paddingVertical">3dp</item>
+    </style>
+    <style name="Widget.TicketHN.Location" parent="Widget.Material3.Button.TonalButton">
+        <item name="backgroundTint">@color/home_surface</item><item name="android:textColor">@color/home_text</item><item name="iconTint">@color/home_secondary</item><item name="cornerRadius">9dp</item><item name="android:minWidth">0dp</item><item name="android:paddingHorizontal">10dp</item><item name="android:insetTop">4dp</item><item name="android:insetBottom">4dp</item>
+    </style>
+    <style name="ShapeAppearance.TicketHN.Thumbnail" parent=""><item name="cornerSize">9dp</item></style>
+    <style name="Widget.TicketHN.NavigationIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator"><item name="android:color">#0A3D4B</item></style>
+    <string name="home_brand">Ticket<font color="#00D8E5">HN</font></string>
+    <string name="home_location">Tegucigalpa, HN ▾</string>
+    <string name="home_search">Buscar eventos…</string>
+    <string name="home_filters">Filtrar eventos</string>
+    <string name="home_featured">DESTACADO</string>
+    <string name="home_upcoming">Eventos Próximos</string>
+    <string name="home_view_all">Ver todos</string>
+    <string name="home_empty">No encontramos eventos. Prueba otra búsqueda o categoría.</string>
+    <string name="nav_explore">Explorar</string><string name="nav_tickets">Mis Boletos</string><string name="nav_profile">Perfil</string>
+    <string name="mock_tickets">Aún no tienes boletos</string><string name="mock_tickets_body">Tus próximas experiencias aparecerán aquí. Explora los eventos para encontrar tu favorito.</string>
+    <string name="mock_profile">Tu perfil</string><string name="mock_profile_body">Próximamente podrás iniciar sesión y administrar tu cuenta de TicketHN.</string>
+    <string name="mock_notice">Vista de demostración · Datos e imágenes de ejemplo</string>
+    <string name="event_price">Desde Lps. %1$s</string>
+    <string name="action_close">Cerrar</string><string name="action_explore">Explorar eventos</string>
+    <string name="filter_city">Ciudad</string><string name="filter_all_cities">Todas las ciudades</string>
+</resources>

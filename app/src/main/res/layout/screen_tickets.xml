@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="56dp" android:gravity="center_vertical" android:paddingHorizontal="16dp">
+        <TextView style="@style/TextAppearance.TicketHN.Brand" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/home_brand"/>
+        <include android:id="@+id/tickets_about_button" layout="@layout/view_about_button"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp" android:layout_marginTop="8dp" android:text="@string/nav_tickets" android:textSize="26sp" android:textStyle="bold" android:textColor="@color/home_text" android:accessibilityHeading="true"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="48dp" android:gravity="end|center_vertical" android:paddingHorizontal="24dp">
+        <TextView android:id="@+id/ticket_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/bg_ticket_counter" android:paddingHorizontal="14dp" android:paddingVertical="5dp" android:textColor="@color/home_secondary" android:textSize="14sp" android:accessibilityLiveRegion="polite"/>
+        <LinearLayout android:id="@+id/ticket_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginStart="8dp" android:importantForAccessibility="no"/>
+    </LinearLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/ticket_pager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginBottom="12dp" android:clipChildren="false"/>
+</LinearLayout>
+

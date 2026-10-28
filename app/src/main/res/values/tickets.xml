@@ -1,0 +1,8 @@
+<resources>
+    <string name="ticket_position">Boleto %1$d de %2$d</string>
+    <string name="ticket_present">Presenta este código en la entrada</string>
+    <string name="ticket_demo">Boleto mock · Sin validez de entrada</string>
+    <string name="ticket_code_description">Código visual de demostración, no escaneable</string>
+    <string name="ticket_seat">Sec: %1$s • Fila: %2$s • Asiento: %3$s\nOrden: #%4$s</string>
+    <string name="ticket_price">%1$s · Lps. %2$s</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TicketHN" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TicketHN" parent="Base.Theme.TicketHN">
+        <item name="colorPrimary">@color/ticket_cyan</item>
+        <item name="colorOnPrimary">@color/home_background</item>
+        <item name="colorSurface">@color/home_surface</item>
+        <item name="colorOnSurface">@color/home_text</item>
+        <item name="colorOnSurfaceVariant">@color/home_muted</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/home_background</item>
+    </style>
+
+    <style name="Theme.TicketHN.Starting" parent="Theme.TicketHN">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/ticket_navy</item>
+        <item name="android:navigationBarColor">@color/ticket_navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

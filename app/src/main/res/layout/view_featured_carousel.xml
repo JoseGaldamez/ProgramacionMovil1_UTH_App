@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/featured_pager" android:layout_width="match_parent" android:layout_height="224dp" android:saveEnabled="false"/>
+    <LinearLayout android:id="@+id/featured_dots" android:layout_width="match_parent" android:layout_height="24dp" android:orientation="horizontal" android:gravity="center" android:importantForAccessibility="yes"/>
+</LinearLayout>

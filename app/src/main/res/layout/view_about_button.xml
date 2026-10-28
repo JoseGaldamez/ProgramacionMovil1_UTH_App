@@ -1,0 +1,8 @@
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:padding="12dp"
+    android:src="@drawable/ic_info"
+    android:tint="@color/home_secondary"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:contentDescription="@string/about_title"/>

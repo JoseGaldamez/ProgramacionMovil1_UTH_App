@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="6dp" android:paddingVertical="10dp">
+    <dev.josegaldamez.tickethn_uth.tickets.TicketSurfaceView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingHorizontal="20dp">
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="44" android:fillViewport="true" android:scrollbars="none">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_vertical" android:paddingTop="18dp" android:paddingBottom="24dp">
+                    <TextView android:id="@+id/ticket_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="25sp" android:textStyle="bold" android:textColor="@color/home_text" android:fontFamily="sans-serif-condensed"/>
+                    <TextView android:id="@+id/ticket_venue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textSize="13sp" android:textColor="@color/home_muted"/>
+                    <TextView android:id="@+id/ticket_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/home_secondary"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginTop="18dp">
+                        <TextView android:id="@+id/ticket_price" style="@style/Widget.TicketHN.Price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold"/>
+                        <TextView android:id="@+id/ticket_seat" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:textSize="10sp" android:textColor="@color/home_muted"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="56" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="14dp">
+                <dev.josegaldamez.tickethn_uth.tickets.MockTicketCodeView android:id="@+id/ticket_code" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:importantForAccessibility="yes" android:contentDescription="@string/ticket_code_description"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/ticket_present" android:textSize="12sp" android:textColor="@color/home_secondary" android:gravity="center"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/ticket_demo" android:textSize="11sp" android:textColor="@color/home_muted" android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </dev.josegaldamez.tickethn_uth.tickets.TicketSurfaceView>
+</FrameLayout>

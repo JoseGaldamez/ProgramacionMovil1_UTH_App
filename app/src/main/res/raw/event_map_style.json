@@ -1,0 +1,8 @@
+[
+  {"elementType":"geometry","stylers":[{"color":"#142b3d"}]},
+  {"elementType":"labels.text.fill","stylers":[{"color":"#a6bdca"}]},
+  {"elementType":"labels.text.stroke","stylers":[{"color":"#142b3d"}]},
+  {"featureType":"road","elementType":"geometry","stylers":[{"color":"#256072"}]},
+  {"featureType":"water","elementType":"geometry","stylers":[{"color":"#081b2e"}]},
+  {"featureType":"poi","stylers":[{"visibility":"off"}]}
+]

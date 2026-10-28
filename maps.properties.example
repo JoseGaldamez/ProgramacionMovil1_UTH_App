@@ -1,0 +1,4 @@
+# Copy to maps.properties in this directory (ignored by Git).
+# Enable Maps SDK for Android and restrict the key to this Android application.
+# Replace the demo placeholder locally, then rebuild the app.
+MAPS_API_KEY=DEMO_REPLACE_WITH_YOUR_KEY

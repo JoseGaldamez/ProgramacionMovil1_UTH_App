@@ -1,0 +1,25 @@
+<resources>
+    <style name="TextAppearance.TicketHN.Brand" parent="">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textFontWeight">900</item>
+        <item name="android:textSize">29sp</item>
+        <item name="android:textColor">@color/home_text</item>
+    </style>
+    <style name="TextAppearance.TicketHN.AboutBody" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/home_text</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+    <string name="about_title">Acerca de TicketHN</string>
+    <string name="about_back">Volver</string>
+    <string name="about_intro"><b>TicketHN</b> es una solución de ingeniería de software desarrollada como proyecto integrador para la carrera de Ingeniería en Computación de la <b>Universidad Tecnológica de Honduras (UTH)</b>.</string>
+    <string name="about_technology">La plataforma integra una aplicación móvil nativa en <b>Android Studio</b> bajo el patrón de arquitectura <b>MVVM</b>, respaldada por una API REST construida bajo los principios de <b>Arquitectura Limpia (Clean Architecture)</b> y asegurada con autenticación <b>JWT / OAuth 2.0</b>.\n\nEl sistema resuelve problemáticas críticas de control de concurrencia para evitar la sobreventa, persistencia local para validación offline y lectura de boletos en tiempo real con CameraX y visión artificial.</string>
+    <string name="about_team_title">Integrantes del Grupo #3</string>
+    <string name="about_team">• Christian Yahir Rodriguez Sanchez\n• William Eduardo Banegas Cruz\n• Jose Oveniel Galdamez Ramos\n• Linda Guadalupe Nolasco Martinez\n• Melvin Edgardo Peña Caballero\n• Ricardo Andres Montes Jovel</string>
+    <string name="about_thanks"><b>Gracias por descargar TicketHN.</b>\nSi quieres compartir tus comentarios o sugerencias, puedes hacerlo aquí.</string>
+    <string name="about_contact">Contactar</string>
+    <string name="about_contact_url" translatable="false">https://josegaldamez.dev</string>
+    <string name="about_no_browser">No se encontró una aplicación para abrir el enlace.</string>
+</resources>

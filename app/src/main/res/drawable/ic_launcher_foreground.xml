@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Keep the complete mark inside the adaptive icon's circular safe area. -->
+    <group
+        android:scaleX="0.44"
+        android:scaleY="0.44"
+        android:translateX="32"
+        android:translateY="32">
+        <path
+            android:fillColor="@color/ticket_cyan"
+            android:fillType="evenOdd"
+            android:pathData="M0,0H27V26H0ZM3.8,4V22H23.2V4Z M73.1,0H100V26H73.1ZM76.9,4V22H96.2V4Z M0,74.3H26.7V100H0ZM3.8,78.2V96.1H22.9V78.2Z M30.9,0H40.2C40.2,5.4 44.6,9.8 50,9.8C55.4,9.8 59.8,5.4 59.8,0H69.1V18.3H30.9Z M0,30.4H19.2V69.8H0V59.8C5.4,59.8 9.6,55.4 9.6,50C9.6,44.6 5.4,40.4 0,40.4Z M23.5,30.4H27.7V69.8H23.5Z M80.8,30.4H100V40.4C94.6,40.4 90.4,44.6 90.4,50C90.4,55.4 94.6,59.8 100,59.8V69.8H80.8Z M72.2,30.4H76.5V91.6C76.5,96.2 72.8,100 68.2,100H59.8C59.8,94.6 55.4,90.4 50,90.4C44.6,90.4 40.2,94.6 40.2,100H30.9V81.6H72.2Z" />
+        <path
+            android:pathData="M8.1,8.1H18.8V18.2H8.1Z M81.2,8.1H91.9V18.2H81.2Z M8.1,82H18.8V92.1H8.1Z M34.7,49.6L38.7,45.6L46.6,53.6L61.3,38.7L65.3,42.7L46.6,61.5Z M80.6,74.3H100V100H80.6V96.1H96.2V78.2H80.6Z M80.7,82H91.8V92.1H80.7Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="0"
+                    android:startY="0"
+                    android:endX="100"
+                    android:endY="100"
+                    android:startColor="#2CC6BF"
+                    android:endColor="#20C2B9"
+                    android:type="linear" />
+            </aapt:attr>
+        </path>
+    </group>
+</vector>
