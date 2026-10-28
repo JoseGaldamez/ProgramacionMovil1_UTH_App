@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MaterialButton uses a square icon box. Keep the 1920:2753 logo ratio inside it. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="24dp" android:height="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:width="16.738dp"
+        android:height="24dp"
+        android:gravity="center"
+        android:drawable="@drawable/google_maps_logo" />
+</layer-list>

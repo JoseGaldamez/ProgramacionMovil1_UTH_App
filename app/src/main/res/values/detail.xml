@@ -10,7 +10,7 @@
     <string name="detail_share_text">%1$s\n%2$s\n%3$s, %4$s\nDesde Lps. %5$s\nEvento de demostración en TicketHN</string>
     <string name="detail_map_placeholder">Ubicación del evento</string>
     <string name="detail_location_demo">Ubicación de referencia · Datos de demostración</string>
-    <string name="detail_open_maps">Ver en Maps</string>
+    <string name="detail_open_maps">Abrir en Google Maps</string>
     <string name="detail_tiers">Localidades disponibles</string>
     <string name="detail_mock_notice">Precios y disponibilidad de ejemplo. Máximo 10 unidades por selección.</string>
     <string name="detail_buy">Comprar boletos</string>
