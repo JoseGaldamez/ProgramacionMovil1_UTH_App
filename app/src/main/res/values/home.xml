@@ -3,9 +3,9 @@
     <string name="uth_description">Universidad Tecnológica de Honduras</string>
     <string-array name="home_categories"><item>Todo</item><item>Conciertos</item><item>Teatro</item><item>Deportes</item><item>Culturales</item></string-array>
     <string-array name="home_cities"><item>Todas las ciudades</item><item>Tegucigalpa</item><item>San Pedro Sula</item></string-array>
-    <color name="home_background">#061327</color>
-    <color name="home_surface">#092B3B</color>
-    <color name="home_border">#245064</color>
+    <color name="home_background">#080A0C</color>
+    <color name="home_surface">#151A1D</color>
+    <color name="home_border">#303B40</color>
     <color name="home_text">#F6F8FC</color>
     <color name="home_muted">#A6BDCA</color>
     <color name="home_secondary">#80D2DB</color>

@@ -25,7 +25,8 @@ public final class TicketSurfaceView extends FrameLayout {
         holes.addCircle(w-edge, h * .44f, notch, Path.Direction.CW);
         outline.op(holes, Path.Op.DIFFERENCE);
         paint.setShader(new LinearGradient(0, 0, w, h,
-            new int[]{0xFF10434D, 0xFF142332, 0xFF142332},
+            new int[]{0xFF133034, getContext().getColor(R.color.home_surface),
+                    getContext().getColor(R.color.home_surface)},
             new float[]{0, .55f, 1}, Shader.TileMode.CLAMP));
     }
     @Override protected void onDraw(Canvas canvas) {
